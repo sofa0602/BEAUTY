@@ -3,6 +3,9 @@ html {
   line-height: 10px;
   color: black; }
 
+body {
+  margin: 0; }
+
 h1,
 h2,
 h3 {
@@ -13,3 +16,17 @@ a {
   color: #000000; }
   a:hover {
     text-decoration: underline; }
+
+.header-navigation {
+  background: #efefef; }
+  .header-navigation__link {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #333333; }
+    .header-navigation__link:not(:last-child) {
+      margin-right: 30px; }
+  .header-navigation__wrapper {
+    display: flex;
+    padding: 17px 0;
+    align-items: center;
+    justify-content: center; }
