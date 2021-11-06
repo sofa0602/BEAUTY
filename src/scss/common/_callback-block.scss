@@ -1,0 +1,15 @@
+.callback-block {
+  display: flex;
+  align-items: center;
+  &__tel-number {
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    margin-right: 40px;
+    color: $title-text-color;
+  }
+  &__callback-button {
+    border-color: $primary1 !important;
+    background: $primary2;
+  }
+}

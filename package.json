@@ -1,0 +1,26 @@
+{
+  "name": "BEAUTY",
+  "version": "1.0.0",
+  "description": "git status\r git add .\r git commit -m \"\"\r git branch\r git checkout\r git push origin\r git pull",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styles": "node-sass -w ./src/scss -o ./src/css --recursive",
+    "start": "browser-sync start --server --files '**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofa0602/BEAUTY.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofa0602/BEAUTY/issues"
+  },
+  "homepage": "https://github.com/sofa0602/BEAUTY#readme"
+}
